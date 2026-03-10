@@ -6,8 +6,8 @@
   --color-light-gray: #f7f7f7;
   --color-border: #dddddd;
   --hero-overlay: rgba(0, 0, 0, 0.45);
-  --airbnb-red: #ff385c;
-  --airbnb-red-hover: #e03150;
+  --airbnb-red: #d1304e;
+  --airbnb-red-hover: #f60934;
   --color-dark-hover: #1f1f1f;
   --color-soft-text: #cfcfcf;
   --color-soft-text-2: #d8d8d8;
@@ -117,6 +117,7 @@ img {
 
 .profile-btn:hover {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  background-color: var(--color-soft-text-2);
 }
 
 .profile-btn i {
