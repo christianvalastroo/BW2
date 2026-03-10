@@ -1,0 +1,87 @@
+header{
+    border: 1px solid blue;
+    height: 50px;
+    width: 100%;
+}
+
+main{
+    border: 1px solid blue;
+    height: 800px;
+    width: 100%;
+}
+
+section.descrCatalogo{
+    border: 1px solid blue;
+    height:;
+    width:;
+}
+
+section.descrCatalogo p:first-of-type{
+    border: 1px solid blue;
+    margin: 0; 
+}
+
+section.descrCatalogo h1{
+    border: 1px solid blue;
+    margin-bottom: 3rem;
+}
+
+section.descrCatalogo h1 a {
+    cursor: pointer;
+}
+
+section.descrCatalogo h1 a i{
+    border: 1px solid blue;
+    color: rgb(208, 56, 101);
+}
+
+section.descrCatalogo .bookedLinkCont{
+    border: 1px solid blue;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.descrCatalogo .bookedLinkCont a{
+    border: 1px solid #333333;
+    padding: 10px;
+    border-radius: 30px;
+    display: block;
+    color:#333333;
+    text-decoration: none;
+    background-color: azure;
+}
+
+section.descrCatalogo p:nth-of-type(2){
+    border: 1px solid blue;
+    margin: 0;
+    margin-top: 2rem; 
+}
+
+section.descrCatalogo p:nth-of-type(3){
+    border: 1px solid blue;
+    margin: 0; 
+    margin-top: 4rem;
+}
+
+section.descrCatalogo p:nth-of-type(3) a{
+    border: 1px solid blue;
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+}
+
+section:last-child{
+
+}
+
+section .cardCont{
+    border: 1px solid blue;
+    height: 70%;
+    justify-content: space-evenly;
+}
+
+section .cardCont .card{
+    border: 1px solid blue;
+    height: 300px;
+}
