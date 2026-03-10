@@ -12,8 +12,6 @@ main{
 
 section.descrCatalogo{
     border: 1px solid blue;
-    height:;
-    width:;
 }
 
 section.descrCatalogo p:first-of-type{
@@ -40,6 +38,7 @@ section.descrCatalogo .bookedLinkCont{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 section.descrCatalogo .bookedLinkCont a{
@@ -71,17 +70,63 @@ section.descrCatalogo p:nth-of-type(3) a{
     font-weight: 500;
 }
 
-section:last-child{
-
+section.cardCatalogo{
+    border: 1px solid blue;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-section .cardCont{
+section.cardCatalogo .cardCont{
     border: 1px solid blue;
     height: 70%;
     justify-content: space-evenly;
 }
 
-section .cardCont .card{
-    border: 1px solid blue;
+section.cardCatalogo .cardCont .oneCard{
     height: 300px;
+    padding: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 8px 1px gainsboro;
+}
+
+section.cardCatalogo .cardCont .oneCard .imgCont{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+section.cardCatalogo .cardCont .oneCard img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+section.cardCatalogo .cardCont .oneCard .cardDesc{
+    height: 50%;
+    width: 100%;
+    padding: 0rem 1rem;
+}
+
+section.cardCatalogo .cardCont .oneCard .cardDesc p{
+    margin: 0;
+}
+
+section.cardCatalogo .cardCont .oneCard .cardDesc p:first-of-type i:first-of-type{
+    font-size: 0.7rem;
+    color: rgb(208, 56, 101);
+}
+
+section.cardCatalogo .cardCont .oneCard .cardDesc p:first-of-type i:last-of-type{
+    font-size: 0.7rem;
+}
+
+section.cardCatalogo .cardCont .oneCard .cardDesc p:first-of-type span{
+    font-weight: 600;
+    
+}
+
+section.cardCatalogo .cardCont .oneCard .cardDesc p:nth-last-of-type(2) i:last-of-type{
+    font-size: 0.7rem;
 }
