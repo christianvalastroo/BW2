@@ -246,12 +246,12 @@ img {
 .hero-content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 40px;
 }
 
 .hero-text {
-  flex: 0 0 38%;
+  flex: 0 0 20%;
+  margin-left: 50px;
   color: var(--color-light-gray);
 }
 
