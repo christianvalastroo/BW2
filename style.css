@@ -244,15 +244,20 @@ img {
 
 /* CONTENUTO HERO */
 .hero-content {
+  background-image: url("assets/home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  gap: 40px;
+  height: 400px;
 }
 
 .hero-text {
   flex: 0 0 20%;
-  margin-left: 50px;
+  margin-left: 40px;
   color: var(--color-light-gray);
+
 }
 
 .hero-subtitle {
@@ -262,7 +267,7 @@ img {
 }
 
 .hero-text h1 {
-  font-size: 64px;
+  font-size: 75px;
   line-height: 0.95;
   font-weight: 700;
   margin-bottom: 18px;
@@ -281,7 +286,7 @@ img {
   background-color: var(--color-light-gray);
   color: var(--color-dark);
   text-decoration: none;
-  padding: 12px 22px;
+  padding: 8px 8px;
   border-radius: 12px;
   font-size: 14px;
   font-weight: 600;
