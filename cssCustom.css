@@ -1,3 +1,14 @@
+
+:root{
+    --color-black: #000000;
+    --color-dark: #222222;
+    --color-gray: #717171;
+    --color-light-gray: #f7f7f7;
+    --color-border: #dddddd;
+    --hero-overlay: rgba(0, 0, 0, 0.45);
+    --button-hover: #fdbbbb;
+}
+
 header{
     border: 1px solid blue;
     height: 50px;
@@ -6,21 +17,17 @@ header{
 
 main{
     border: 1px solid blue;
-    height: 800px;
     width: 100%;
 }
 
 section.descrCatalogo{
-    border: 1px solid blue;
 }
 
 section.descrCatalogo p:first-of-type{
-    border: 1px solid blue;
     margin: 0; 
 }
 
 section.descrCatalogo h1{
-    border: 1px solid blue;
     margin-bottom: 3rem;
 }
 
@@ -29,12 +36,18 @@ section.descrCatalogo h1 a {
 }
 
 section.descrCatalogo h1 a i{
-    border: 1px solid blue;
     color: rgb(208, 56, 101);
 }
 
+/*hover tastoPlus pagina2*/
+
+section.descrCatalogo h1 a i:hover{
+    color: rgb(248, 68, 122);
+}
+
+/*------------------*/
+
 section.descrCatalogo .bookedLinkCont{
-    border: 1px solid blue;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -42,44 +55,59 @@ section.descrCatalogo .bookedLinkCont{
 }
 
 section.descrCatalogo .bookedLinkCont a{
-    border: 1px solid #333333;
+    border: 1px solid var(--color-dark);
     padding: 10px;
     border-radius: 30px;
     display: block;
-    color:#333333;
+    color: #333333;
     text-decoration: none;
-    background-color: azure;
+    background-color: var(--color-light-gray);
 }
 
+/*hover tastiBooked pagina2*/
+
+section.descrCatalogo .bookedLinkCont a:hover{
+    background-color: var(--button-hover);
+}
+
+/*------------------*/
+
 section.descrCatalogo p:nth-of-type(2){
-    border: 1px solid blue;
     margin: 0;
     margin-top: 2rem; 
 }
 
 section.descrCatalogo p:nth-of-type(3){
-    border: 1px solid blue;
     margin: 0; 
     margin-top: 4rem;
 }
 
 section.descrCatalogo p:nth-of-type(3) a{
-    border: 1px solid blue;
     text-decoration: none;
     color: #333333;
     font-weight: 500;
 }
 
+/*hover learMoreLink pagina2*/
+
+section.descrCatalogo p:nth-of-type(3) a:hover{
+    text-decoration: underline;
+}
+
+/*------------------*/
+
 section.cardCatalogo{
-    border: 1px solid blue;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
 section.cardCatalogo .cardCont{
-    border: 1px solid blue;
     height: 70%;
     justify-content: space-evenly;
+}
+
+section.cardCatalogo .cardCont a{
+    cursor: pointer;
 }
 
 section.cardCatalogo .cardCont .oneCard{
@@ -89,6 +117,14 @@ section.cardCatalogo .cardCont .oneCard{
     overflow: hidden;
     box-shadow: 1px 1px 8px 1px gainsboro;
 }
+
+/*hover card pagina2*/
+
+section.cardCatalogo .cardCont .oneCard:hover{
+    box-shadow: 1px 1px 8px 6px gainsboro;
+}
+
+/*------------------*/
 
 section.cardCatalogo .cardCont .oneCard .imgCont{
     height: 50%;
@@ -129,4 +165,10 @@ section.cardCatalogo .cardCont .oneCard .cardDesc p:first-of-type span{
 
 section.cardCatalogo .cardCont .oneCard .cardDesc p:nth-last-of-type(2) i:last-of-type{
     font-size: 0.7rem;
+}
+
+footer{
+    border: 1px solid blue;
+    height: 400px;
+    width: 100%;
 }
