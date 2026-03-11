@@ -9,12 +9,6 @@
     --button-hover: #fdbbbb;
 }
 
-header{
-    border: 1px solid blue;
-    height: 50px;
-    width: 100%;
-}
-
 main{
     border: 1px solid blue;
     width: 100%;
