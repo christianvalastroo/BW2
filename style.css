@@ -31,9 +31,7 @@ img {
   max-width: 100%;
 }
 
-/* =========================
-   NAVBAR
-========================= */
+/* NAVBAR */
 .topbar {
   background-color: var(--color-black);
 }
@@ -157,9 +155,7 @@ img {
   }
 }
 
-/* =========================
-   HERO
-========================= */
+/* HERO */
 .hero {
   background-color: var(--color-black);
   padding: 20px 0 56px;
@@ -297,9 +293,7 @@ img {
   border-radius: 24px;
 }
 
-/* =========================
-   CARDS SECTION
-========================= */
+/* CARDS SECTION */
 .discover-section {
   background-color: var(--color-white);
 }
@@ -361,9 +355,7 @@ img {
   margin: 0;
 }
 
-/* =========================
-   PLACES / DESTINAZIONI
-========================= */
+/* PLACES / DESTINAZIONI */
 
 /* sezione che contiene tutte le card */
 .places {
@@ -406,9 +398,7 @@ img {
   color: var(--color-gray);
 }
 
-/* =========================
-   FOOTER
-========================= */
+/* FOOTER */
 footer {
   background-color: var(--color-light-gray);
   border-top: 1px solid var(--color-border);
@@ -486,9 +476,7 @@ footer ul li a:hover {
   cursor: pointer;
 }
 
-/* =========================
-   TABLET + SMARTPHONE
-========================= */
+/* TABLET + SMARTPHONE */
 @media (max-width: 991.98px) {
   .navbar-collapse {
     padding-top: 18px;
