@@ -375,8 +375,8 @@ img {
 }
 
 .place-card img {
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
   border-radius: 12px;
   object-fit: cover;
   transition: transform 0.2s ease;
