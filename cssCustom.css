@@ -1,0 +1,284 @@
+
+:root{
+    --color-black: #000000;
+    --color-dark: #222222;
+    --color-gray: #717171;
+    --color-light-gray: #f7f7f7;
+    --color-border: #dddddd;
+    --hero-overlay: rgba(0, 0, 0, 0.45);
+    --button-hover: #fdbbbb;
+}
+
+main{
+    font-size: 1rem;
+}
+
+@media (width<=576px) {
+    main{
+    font-size: 0.8rem;
+}
+}
+
+@media (width<=768px) {
+    main{
+    font-size: 1rem;
+}
+}
+
+@media (width>768px) {
+    main{
+    font-size: 1.2rem;
+}
+}
+
+:root {
+  --bs-breakpoint-xs: 0;
+  --bs-breakpoint-sm: 576px;
+  --bs-breakpoint-md: 768px;
+  --bs-breakpoint-lg: 992px;
+  --bs-breakpoint-xl: 1200px;
+  --bs-breakpoint-xxl: 1400px;
+}
+
+section.descrCatalogo{
+}
+
+section.descrCatalogo p:first-of-type{
+    margin: 0; 
+}
+
+section.descrCatalogo h1{
+    font-weight: 700;
+    margin-bottom: 2.5em;
+}
+
+section.descrCatalogo h1 a {
+    cursor: pointer;
+}
+
+section.descrCatalogo h1 a i{
+    color: rgb(208, 56, 101);
+}
+
+/*hover tastoPlus pagina2*/
+
+section.descrCatalogo h1 a i:hover{
+    color: rgb(248, 68, 122);
+}
+
+/*------------------*/
+
+section.descrCatalogo .bookedLinkCont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+section.descrCatalogo .bookedLinkCont a{
+    border: 1px solid var(--color-dark);
+    padding: 10px;
+    border-radius: 30px;
+    display: block;
+    color: #333333;
+    text-decoration: none;
+    background-color: var(--color-light-gray);
+}
+
+/*hover tastiBooked pagina2*/
+
+section.descrCatalogo .bookedLinkCont a:hover{
+    background-color: var(--button-hover);
+}
+
+/*------------------*/
+
+section.descrCatalogo p:nth-of-type(2){
+    margin: 0;
+    margin-top: 2em; 
+}
+
+section.descrCatalogo p:nth-of-type(3){
+    margin: 0; 
+    margin-top: 4em;
+}
+
+section.descrCatalogo p:nth-of-type(3) a{
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+}
+
+/*hover learMoreLink pagina2*/
+
+section.descrCatalogo p:nth-of-type(3) a:hover{
+    text-decoration: underline;
+}
+
+/*------------------*/
+
+section.cardCatalogo{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+section.cardCatalogo .cardCont{
+    height: 70%;
+    justify-content: space-evenly;
+}
+
+section.cardCatalogo .cardCont .col{
+    min-width: 235px;
+    height: 70%;
+    justify-content: space-evenly;
+}
+
+section.cardCatalogo .cardCont .col a{
+    cursor: pointer;
+}
+
+section.cardCatalogo .cardCont .col a .oneCard{
+    height: 250px;
+    padding: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 8px 1px gainsboro;
+    font-size: 0.8em;
+}
+
+/*hover card pagina2*/
+
+section.cardCatalogo .cardCont .col a .oneCard:hover{
+    box-shadow: 1px 1px 8px 6px gainsboro;
+}
+
+/*------------------*/
+
+section.cardCatalogo .cardCont .col a .oneCard .imgCont{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+section.cardCatalogo .cardCont .col a .oneCard img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+section.cardCatalogo .cardCont .col a .oneCard .cardDesc{
+    width: 100%;
+    padding: 0em 1em;
+    padding-bottom: 1em;
+}
+
+section.cardCatalogo .cardCont .col a .oneCard .cardDesc p{
+    margin: 0;
+}
+
+section.cardCatalogo .cardCont .col a .oneCard .cardDesc p:first-of-type i:first-of-type{
+    font-size: 0.7em;
+    color: rgb(208, 56, 101);
+}
+
+section.cardCatalogo .cardCont .col a .oneCard .cardDesc p:first-of-type i:last-of-type{
+    font-size: 0.7em;
+}
+
+section.cardCatalogo .cardCont .col a .oneCard .cardDesc p:first-of-type span{
+    font-weight: 600;
+    
+}
+
+section.cardCatalogo .cardCont .col a .oneCard .cardDesc p:nth-last-of-type(2) i:last-of-type{
+    font-size: 0.7em;
+}
+
+footer {
+  background-color: var(--color-light-gray);
+  border-top: 1px solid var(--color-border);
+  padding: 48px 0 24px;
+}
+
+footer h6 {
+  color: var(--color-dark);
+  font-weight: 600;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: var(--color-dark);
+  font-size: 14px;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-divider {
+  margin: 32px 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: var(--color-gray);
+  font-size: 14px;
+}
+
+.footer-left a {
+  text-decoration: none;
+  color: var(--color-gray);
+}
+
+.footer-left a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: var(--color-dark);
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.footer-right i,
+.footer-right span {
+  cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+    footer {
+    padding: 40px 0 24px;
+  }
+
+    .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}
