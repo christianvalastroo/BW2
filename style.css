@@ -368,7 +368,7 @@ img {
   align-items: center;
   gap: 12px;
   cursor: pointer;
-  min-height: 76px;
+  min-height: 80px;
   padding: 10px 12px;
   border-radius: 12px;
   transition: background-color 0.2s ease, transform 0.2s ease;
