@@ -123,6 +123,7 @@ section.cardCatalogo .cardCont .col{
 
 section.cardCatalogo .cardCont .col a{
     cursor: pointer;
+    text-decoration: none;
 }
 
 section.cardCatalogo .cardCont .col a .oneCard{
@@ -132,6 +133,8 @@ section.cardCatalogo .cardCont .col a .oneCard{
     overflow: hidden;
     box-shadow: 1px 1px 8px 1px gainsboro;
     font-size: 0.8em;
+    color: #333333;
+    text-decoration: none;
 }
 
 /*hover card pagina2*/
@@ -144,6 +147,7 @@ section.cardCatalogo .cardCont .col a .oneCard:hover{
 
 section.cardCatalogo .cardCont .col a .oneCard .imgCont{
     width: 100%;
+    height: 60%;
     overflow: hidden;
     border-radius: 10px;
 }
@@ -155,6 +159,7 @@ section.cardCatalogo .cardCont .col a .oneCard img{
 }
 
 section.cardCatalogo .cardCont .col a .oneCard .cardDesc{
+    height: 40%;
     width: 100%;
     padding: 0em 1em;
     padding-bottom: 1em;

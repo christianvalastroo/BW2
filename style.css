@@ -363,6 +363,10 @@ img {
   background-color: var(--color-white);
 }
 
+.places a {
+  text-decoration: none;
+}
+
 .place-card {
   display: flex;
   align-items: center;
@@ -387,9 +391,10 @@ img {
   transform: translateY(-2px);
 }
 
-.place-card h4 {
+.place-card h3 {
   margin: 0;
   font-size: 16px;
+  color: #333333;
 }
 
 .place-card p {
