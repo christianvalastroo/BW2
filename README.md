@@ -94,13 +94,3 @@ Gestisce:
 - layout generale
 
 Include anche una **animazione di caricamento pagina**:
-
-```css
-body {
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-body.page-loaded {
-  opacity: 1;
-}
