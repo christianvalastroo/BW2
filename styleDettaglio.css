@@ -1,0 +1,199 @@
+.container-md {
+    border: 2px solid red;
+}
+
+p {
+    margin: 0;
+}
+/*      section Image       */
+
+#section-Image h3 {
+    font-weight: 600;
+}
+
+#info-section-Image {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ratings-section-Image {
+    display: flex;
+}
+
+#ratings-section-Image p span {
+    font-weight: 600;
+}
+
+#ratings-section-Image p:first-child::after {
+    content: "•";
+    padding: 10px 10px;
+}
+
+#others-actions {
+    display: flex;
+    gap: 10px;
+}
+
+#images {
+    border: 2px solid blue;
+    padding: 0;
+    border-radius: 30px;
+    overflow: hidden;
+    
+}
+
+#images img {
+    width: 100%;
+
+}
+
+#images .row-cols-2 {
+    gap: 10px 0px;
+}
+
+/*      section descrizione       */
+
+h5 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#descriptionPlace p:first-child::after {
+    content: "•";
+    padding: 10px 10px;
+}
+
+#section-Descrizione a:first-of-type {
+    color: gray;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+#section-Descrizione a:first-of-type:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 5vh;
+}
+
+#section-Descrizione ul li {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 5vh;
+}
+
+#section-Descrizione ul li i {
+    font-size: 2rem;
+}
+
+#section-Descrizione ul li p:first-child {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+#section-Descrizione ul li p:last-child {
+    font-weight: lighter;
+    font-size: 0.9rem;
+}
+
+#datePrice {
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px gray;
+    max-width: 400px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#datePrice div:first-of-type p:first-child {
+    font-size: 1.3rem;
+}
+
+#datePrice div:first-of-type div i {
+    color: #FF385C;
+}
+
+form.container {
+    max-width: 1000px;
+    margin: 0;
+}
+#formsDateGuest {
+    border: 1px solid black;
+    border-radius: 14px;
+    overflow: hidden;
+    width: 90%;
+    margin-bottom: 1vh;
+}
+#formsDateGuest input {
+    width: 100%;
+    height: 6vh;
+    border: none;
+}
+#formsDateGuest input[type="text"]{
+    border-top: 1px solid black;
+}
+#firstFormDate{
+    border-right: 1px solid black;
+}
+#datePrice button {
+    width: 90%;
+    background-color: #FF385C;
+    color: white;
+    border-radius: 14px;
+    height: 6vh;
+    font-weight: bold;
+    border: none;
+}
+
+label {
+    display: block;
+}
+
+#fname, #rating {
+    width: 100%;
+    height: 6vh;
+    border-radius: 14px;
+}
+
+#rating i {
+    color: black;
+}
+
+/*  section Recensioni  */
+
+.infoUtente {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 6vh;
+    margin-bottom: 15px;
+}
+
+.infoUtente div:first-child {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.infoUtente img {
+    height: 100%;
+}
+
+.infoUtente div:last-child p:first-child {
+    font-weight: bold;
+}
+
+.infoUtente div:last-child p:last-child {
+    font-weight: lighter;
+    font-size: 0.9rem;
+}
+
+.commentUser {
+    margin-bottom: 25px;
+}
