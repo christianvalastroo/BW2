@@ -31,6 +31,10 @@ main{
 }
 }
 
+#airbnbNavbar{
+    background-color: white;
+}
+
 section.descrCatalogo p:first-of-type{
     margin: 0; 
 }
