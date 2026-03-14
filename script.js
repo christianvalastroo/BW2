@@ -27,7 +27,9 @@ links.forEach(link => {
 let formObj=document.querySelector(".hero form")
 let locationInput=document.getElementById("location")
 let searchBtn=document.querySelector(".airbnb-search button")
-
+const noSearchModalObj = document.getElementById("noSearchModal")
+const noFoundModalObj = document.getElementById("noFoundModal")
+const layer=document.querySelector("#layer")
 
 function locationSearch (userString) {
 
@@ -36,9 +38,26 @@ function locationSearch (userString) {
   if(LowCaseString.includes("genova")){
     window.location.href="indexAirbnb2.html"
   }else if (userString===""){
-    alert("Inserisci una destinazione")
+    layer.classList.add("show")
+
+    noSearchModalObj.classList.add("showModal")
+
+    const closeBtn=document.querySelector("#noSearchCloseBtnX")
+    closeBtn.addEventListener("click", ()=>{
+      layer.classList.remove("show")
+      noSearchModalObj.classList.remove("showModal")
+    })
+
   }else{
-    alert("Destinazione non trovata")
+    layer.classList.add("show")
+
+    noFoundModalObj.classList.add("showModal")
+
+    const closeBtn=document.querySelector("#noFoundCloseBtnX")
+    closeBtn.addEventListener("click", ()=>{
+      layer.classList.remove("show")
+      noFoundModalObj.classList.remove("showModal")
+    })
   }
 
 }
@@ -46,3 +65,5 @@ function locationSearch (userString) {
 searchBtn.addEventListener("click", ()=>{
   locationSearch(locationInput.value)
 })
+
+/*------------*/

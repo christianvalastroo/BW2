@@ -18,6 +18,8 @@
 
 <body>
 
+<div id="layer"></div>
+
     <header class="topbar">
         <nav class="navbar navbar-expand-lg py-3">
             <div class="container">
@@ -91,6 +93,35 @@
         <button class="search-lens" type="button">
               <i class="bi bi-search" style="color: white;"></i>
         </button>
+
+        <!-- modal per errore di ricerca -->
+        <div id="noSearchModal" class="modal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Errore di ricerca</h5>
+                <button type="button" class="btn-close" id="noSearchCloseBtnX" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Inserisci una destinazione</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="noFoundModal" class="modal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Errore di ricerca</h5>
+                <button type="button" class="btn-close" id="noFoundCloseBtnX" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Destinazione non trovata</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
     </form>
 
