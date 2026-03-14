@@ -1,6 +1,11 @@
-.container-md {
-    border: 2px solid red;
+@media (max-width: 992px) {
+    #airbnbNavbar {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 5px 10px black;
+    }
 }
+
 
 p {
     margin: 0;
@@ -14,6 +19,7 @@ p {
 #info-section-Image {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 #ratings-section-Image {
@@ -35,20 +41,15 @@ p {
 }
 
 #images {
-    border: 2px solid blue;
     padding: 0;
     border-radius: 30px;
     overflow: hidden;
-    
 }
 
 #images img {
     width: 100%;
-
-}
-
-#images .row-cols-2 {
-    gap: 10px 0px;
+    height: 100%;
+    object-fit: cover;
 }
 
 /*      section descrizione       */
