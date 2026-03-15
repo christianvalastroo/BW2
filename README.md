@@ -5,7 +5,7 @@ Questo progetto è un **clone semplificato di Airbnb** sviluppato come esercitaz
 ## 🔗 Project Link
 
 Repository:  
-https://github.com/tuonome/airbnb-clone(https://christianvalastroo.github.io/BW2/)
+[https://github.com/tuonome/airbnb-clone(https://christianvalastroo.github.io/BW2/)](https://christianvalastroo.github.io/BW2/)
 
 L'obiettivo del progetto è ricreare una piccola esperienza di navigazione ispirata ad Airbnb, lavorando su:
 
